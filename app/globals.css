@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+
+  /* background colors */
+  --main-bg: #59008d;
+  --bg-1: #12065b;
+  --bg-2: #8500bd;
+  --bg-3: #ad56e3;
+  --bg-4: #ddb0ff;
+  --para: #000000;
+  --x-padding: 5rem;
+  --navColor: rgba(18, 6, 91, 0.85);
+  --navColor2: rgba(133, 0, 189, 0.85);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
