@@ -9,7 +9,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "KAIBRIDE Suite",
+  title: "KAIBRIDGE Suite",
   description: "kaibridge suite landing page",
   icons: {
     icon: "/logos/kaibridge.png", 
