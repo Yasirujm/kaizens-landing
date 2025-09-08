@@ -7,28 +7,28 @@ const apps = [
     title: "KAIMIG",
     description: "AI Powered Smart Data Migration",
     action: "ACCESS",
-    icon: "/logos/kaimig trans.png",
+    icon: "/KaiMigTrans.png",
     href:"https://103.241.64.56:8085/",
   },
   {
     title: "KAITEST",
     description: "Scenario Based Test Automations",
     action: "ACCESS",
-    icon: "/logos/kaitest trans.png",
+    icon: "/KaiTestTrans.png",
     href: "https://103.241.64.56:8081/",
   },
   {
     title: "KAIREP",
     description: "Instant Crystal Report Conversions",
     action: "ACCESS",
-    icon: "/logos/kairep trans.png",
+    icon: "/KaiRepTrans.png",
     href: "https://185.237.99.48/",
   },
   {
     title: "KAISEC",
     description: "Seamless Permissions Transfer",
     action: "ACCESS",
-    icon: "/logos/kaisec trans.png"
+    icon: "/KaiSecTrans.png"
   },
   {
     title: "KAIDOC",
@@ -58,7 +58,7 @@ export default function Home() {
       <div className="absolute">
         <div className="bg-white/10 backdrop-blur-md rounded-r-full px-2 py-2 flex items-center shadow-md">
           <Image
-            src="/logos/logoWhite.png"
+            src="/LogoWhite.png"
             alt="Kaibridge Logo"
             width={140}
             height={40}
