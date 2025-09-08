@@ -22,6 +22,7 @@ const apps = [
     description: "Instant Crystal Report Conversions",
     action: "ACCESS",
     icon: "/logos/kairep trans.png",
+    href: "https://185.237.99.48/",
   },
   {
     title: "KAISEC",
