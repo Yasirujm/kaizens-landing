@@ -9,8 +9,11 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Kaizens Group",
-  description: "Kaizens Group Website",
+  title: "KAIBRIDE Suite",
+  description: "kaibridge suite landing page",
+  icons: {
+    icon: "/logos/kaibridge.png", 
+  },
 };
 
 export default function RootLayout({
